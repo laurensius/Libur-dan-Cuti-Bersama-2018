@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Libur dan Cuti Bersama 2018</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3588177853851357/1860060026</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3588177853851357/8890472422</string>
+
+    <string name="libur_januari">
+        1 Januari - Tahun Baru\n
+        2 Januari - Tahun Baru Lagi\n
+    </string>
 </resources>
