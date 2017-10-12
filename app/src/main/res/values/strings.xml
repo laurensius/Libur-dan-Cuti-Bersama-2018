@@ -4,7 +4,45 @@
     <string name="interstitial_ad_unit_id">ca-app-pub-3588177853851357/8890472422</string>
 
     <string name="libur_januari">
-        1 Januari - Tahun Baru\n
-        2 Januari - Tahun Baru Lagi\n
+        1 Januari, Senin (Tahun Baru 2018 Masehi)
     </string>
+    <string name="libur_februari">
+        16 Februari, Jumat (Tahun Baru Imlek)
+    </string>
+    <string name="libur_maret">
+        17 Maret, Sabtu (Hari Raya Nyepi Tahun Baru Saka 1940)\n30 Maret, Jumat (Wafat Isa Al Masih)
+    </string>
+    <string name="libur_april">
+        14 April, Sabtu (Isra Mi\'raj Nabi Muhammad SAW)
+    </string>
+    <string name="libur_mei">
+        1 Mei, Selasa (Hari Buruh Internasional)\n10 Mei, Kamis (Kenaikan Isa Al Masih)\n29 Mei, Selasa (Hari Raya Waisak 2562)
+    </string>
+    <string name="libur_juni">
+        1 Juni, Jumat (Hari Lahir Pancasila)\n15-16 Juni, Jumat-Sabtu (Hari Raya Idul Fitri 1439 Hijriyah)
+    </string>
+    <string name="libur_juli">
+        Tidak ada libur nasional
+    </string>
+    <string name="libur_agustus">
+        17 Agustus, Jumat (Hari Kemerdekaan Republik Indonesia)\n22 Agustus, Rabu (Hari Raya Idul Adha 1439 Hijriyah)
+    </string>
+    <string name="libur_september">
+        11 September, Selasa (Tahun Baru Islam 1440 Hijriyah)
+    </string>
+    <string name="libur_oktober">
+        Tidak ada libur nasional
+    </string>
+    <string name="libur_november">
+        20 November, Selasa (Maulid Nabi Muhammad SAW)
+    </string>
+    <string name="libur_desember">
+        25 Desember, Selasa (Hari Raya Natal)
+    </string>
+
+    <string name="cuti_bersama">
+        13, 14, 18, dan 19 Juni Rabu, Kamis, Senin dan Selasa (Hari Raya Idul Fitri 1439 Hijriyah)\n24 Desember, Senin (Hari Raya Natal)
+    </string>
+
+
 </resources>

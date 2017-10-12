@@ -14,8 +14,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@mipmap/bg_splash"
-            android:src="@mipmap/ic_launcher"/>
+            android:background="@mipmap/banner"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="0dp"
@@ -41,13 +40,13 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="3dp"
-                        android:background="#553366">
+                        android:background="#3598DC">
                     </LinearLayout>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:textColor="#CCCCCC"
+                        android:textColor="#525E64"
                         android:fontFamily="sans-serif"
                         android:textSize="8pt"
                         android:padding="5dp"
@@ -55,7 +54,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#CCCCCC"
+                        android:textColor="#525E64"
                         android:fontFamily="sans-serif"
                         android:textSize="6pt"
                         android:padding="5dp"
@@ -66,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="0dp"
@@ -74,17 +73,388 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="3dp"
-                        android:background="#99AA11">
+                        android:background="#F4D03F">
                     </LinearLayout>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Januari"/>
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="FEBRUARI"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Libur 1 \nLibur 1 \nLibur 1 \n Libur 1 \n"/>
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_februari"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#36D7B7">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="MARET"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_maret"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#E43A45">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="APRIL"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_april"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#3598DC">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="MEI"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_mei"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#F4D03F">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="JUNI"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_juni"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#36D7B7">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="JULI"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_juli"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#E43A45">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="AGUSTUS"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_agustus"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#3598DC">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="SEPTEMBER"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_september"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#F4D03F">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="OKTOBER"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_oktober"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#36D7B7">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="NOVEMBER"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_november"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#E43A45">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="DESEMBER"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/libur_desember"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="#9A12B3">
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="8pt"
+                        android:padding="5dp"
+                        android:text="CUTI BERSAMA"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#525E64"
+                        android:fontFamily="sans-serif"
+                        android:textSize="6pt"
+                        android:padding="5dp"
+                        android:text="@string/cuti_bersama"/>
                 </LinearLayout>
 
 

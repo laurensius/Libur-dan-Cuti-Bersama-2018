@@ -29,4 +29,11 @@ public class SplashScreen extends Activity{
         };
         timer.start();
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(SplashScreen.this, ActivityInterstitial.class);
+        startActivity(i);
+        finish();
+    }
 }

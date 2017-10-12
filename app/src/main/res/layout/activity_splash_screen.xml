@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@mipmap/bg_splash"
+    android:background="#cbe5fc"
     tools:context="com.laurensius_dede_suhardiman.liburdancutibersama2018.SplashScreen">
 
     <ImageView
